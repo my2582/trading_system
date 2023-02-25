@@ -1,1 +1,34 @@
-<mxfile host="app.diagrams.net" modified="2023-02-25T01:36:47.720Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" version="20.8.23" etag="Lu6tczwzKjda4LkIXggp" type="github"><diagram name="Page-1" id="Tdvr2OjnnvpVnZv0TIXR">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-02-25T01:45:29.481Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="YO6LdpGjhzxzxRGT208N" version="20.8.23" type="github">
+  <diagram name="Page-1" id="Tdvr2OjnnvpVnZv0TIXR">
+    <mxGraphModel dx="1194" dy="741" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0M7Aftn4_czfuyIzjDY6-1" value="&lt;b&gt;A simple five-component trading system&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="20" width="330" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0M7Aftn4_czfuyIzjDY6-2" value="Liquidity Provider.py" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="130" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0M7Aftn4_czfuyIzjDY6-3" value="Market Simulator.py" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="230" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0M7Aftn4_czfuyIzjDY6-4" value="OrderBook.py" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="130" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0M7Aftn4_czfuyIzjDY6-5" value="TradingStrategy.py" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="430" y="100" width="130" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="0M7Aftn4_czfuyIzjDY6-6" value="Signal" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="455" y="110" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0M7Aftn4_czfuyIzjDY6-7" value="Execution" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="455" y="150" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0M7Aftn4_czfuyIzjDY6-8" value="Order Manager.py" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="230" width="90" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
