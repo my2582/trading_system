@@ -21,7 +21,7 @@ class TradingStrategy:
             self.handle_book_event(book_event=book_event)
         else:
             if len(self.ob_2_ts) > 0:
-                be=self.handle_book_event(book_event=self.ob_2_ts.popleft())
+                be = self.ob_2_ts.popleft()
                 self.handle_book_event(book_event=be)
     
     def handle_book_event(self, book_event: Dict):
@@ -46,17 +46,17 @@ class TradingStrategy:
     
     def create_orders(self, book_event: Dict, quantity: int) -> None:
         self.order_id += 1
-        ord = {
+        order = {
             'id': self.order_id,
             'price': book_event['bid_price'],
             'quantity': quantity,
             'side': 'sell',
             'action': 'to_be_sent'
         }
-        self.orders.append(ord.copy())
+        self.orders.append(order.copy())
 
         self.order_id += 1
-        ord = {
+        order = {
             'id': self.order_id,
             'price': book_event['offer_price'],
             'quantity': quantity,
@@ -64,7 +64,7 @@ class TradingStrategy:
             'action': 'to_be_sent'
         }
 
-        self.orders.append(ord.copy())
+        self.orders.append(order.copy())
     
     def execution(self):
         orders_to_be_removed = []
@@ -90,14 +90,13 @@ class TradingStrategy:
         for order_index in sorted(orders_to_be_removed, reverse=True):
             del (self.orders[order_index])
 
-    
     def handle_response_from_om(self):
         if self.om_2_ts is not None:
             self.handle_market_response(self.om_2_ts.popleft())
         else:
             print('simulation mode')
     
-    def handle_market_response(self, order_execution):
+    def handle_market_response(self, order_execution: Dict):
         order, _ = self.lookup_orders(order_execution['id'])
         if order is None:
             print('error not found')
