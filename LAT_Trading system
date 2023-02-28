@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-28T10:54:49.241Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="3d78g57czKOJVebmw6am" version="20.8.23" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-02-28T13:15:04.708Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="0-Olx0hL2-HdU01aY-RW" version="20.8.23" type="github" pages="4">
   <diagram name="Page-1" id="Tdvr2OjnnvpVnZv0TIXR">
     <mxGraphModel dx="1194" dy="741" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -475,7 +475,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="pM4SPckkqw9F1BQVG305" name="p345">
-    <mxGraphModel dx="918" dy="570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1194" dy="741" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -501,7 +501,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="gRLgDOItRIrg5Gr_bDr2-6" value="Bid (매수호가)" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;strokeColor=#000000;fontSize=16;labelBackgroundColor=none;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="441" y="69" width="180" height="230" as="geometry" />
+          <mxGeometry x="440" y="49.5" width="180" height="230" as="geometry" />
         </mxCell>
         <mxCell id="gRLgDOItRIrg5Gr_bDr2-7" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=#000000;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=#d5e8d4;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;dashed=1;labelBackgroundColor=none;strokeWidth=2;opacity=50;" vertex="1" parent="gRLgDOItRIrg5Gr_bDr2-6">
           <mxGeometry y="30" width="180" height="40" as="geometry" />
@@ -594,7 +594,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="gRLgDOItRIrg5Gr_bDr2-27" value="Offer (매도호가)" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;strokeColor=default;fontSize=16;labelBackgroundColor=none;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="621" y="69" width="180" height="230" as="geometry" />
+          <mxGeometry x="620" y="49.5" width="180" height="230" as="geometry" />
         </mxCell>
         <mxCell id="gRLgDOItRIrg5Gr_bDr2-28" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=#b85450;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=#f8cecc;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;dashed=1;labelBackgroundColor=none;strokeWidth=2;opacity=50;" vertex="1" parent="gRLgDOItRIrg5Gr_bDr2-27">
           <mxGeometry y="30" width="180" height="40" as="geometry" />
@@ -687,7 +687,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="gRLgDOItRIrg5Gr_bDr2-49" value="호가창(Order book)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=5" vertex="1" parent="1">
-          <mxGeometry x="571" y="40" width="99" height="29" as="geometry" />
+          <mxGeometry x="570" y="20.5" width="99" height="29" as="geometry" />
         </mxCell>
         <mxCell id="YFfk-p-AhvSsr1AK_dzx-1" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=14;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;labelBackgroundColor=none;" edge="1" parent="1">
           <mxGeometry x="-0.1153" y="-1" width="50" height="50" relative="1" as="geometry">
@@ -728,6 +728,27 @@
         </mxCell>
         <mxCell id="QkLDhO7buHY7hEhO6dLd-1" value="Execution" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="340" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QkLDhO7buHY7hEhO6dLd-2" value="신호(signal)는 Long or Short 둘 중 하나의 값을 갖는다." style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=none;entryX=0;entryY=1;entryDx=0;entryDy=0;align=center;" edge="1" parent="1" source="X-N6qeSKpjsRTxefOCUI-1" target="gRLgDOItRIrg5Gr_bDr2-27">
+          <mxGeometry x="-0.0923" y="10" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="340" as="sourcePoint" />
+            <mxPoint x="620" y="290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="620" y="310" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0Ag0XR0xOYiStpPzIPDK-3" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=none;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="QkLDhO7buHY7hEhO6dLd-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="310" as="sourcePoint" />
+            <mxPoint x="40" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0Ag0XR0xOYiStpPzIPDK-4" value="신호가 원하는 만큼의 유동성을&lt;br&gt;확보하기 위한 매매를 실행한다." style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0Ag0XR0xOYiStpPzIPDK-3">
+          <mxGeometry x="-0.0903" y="-1" relative="1" as="geometry">
+            <mxPoint x="-9" y="1" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
